@@ -11,4 +11,7 @@ public class Administrador extends Usuario{
 	public void administrarUsuario() {
 	}
 	
+	public void inicioSesion() {
+		
+	}
 }
