@@ -1,12 +1,14 @@
 package javathings;
 
-public class Administrador {
+public class Administrador extends Usuario{
 	public int idAdmin;
 	
-	public void administrador(int idAdmin) {
-		this.idAdmin = idAdmin;
-		
-		System.out.println(idAdmin);
+	//Constructor
+	public Administrador() {
+		super();
 	};
+	
+	public void administrarUsuario() {
+	}
 	
 }
